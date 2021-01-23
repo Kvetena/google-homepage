@@ -1,0 +1,64 @@
+@font-face{
+    font-family: 'Roboto', sans-serif;
+}
+header {
+    position: absolute;
+    top: 13px;
+    right: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+.right, .left {
+    position: absolute;
+    bottom: 15px;
+}
+
+.right {
+    position: absolute;
+    right: 15px;
+    bottom: 15px;
+}
+
+.left {
+    position: absolute;
+    left: 15px;
+    bottom: 15px;
+}
+
+.gmail, .images {
+    font-size: 13px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    font-size: 13px;
+    margin-left: auto;
+    margin-right: auto;
+    flex-direction: row;
+}
+
+.apps-icon:hover {
+    background-image: url('images/apps.png');
+}
+
+.apps-icon {
+    max-width: 20px;
+    max-height: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.kvetena{
+    border-radius: 50%;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.google-logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    align-self: center;
+}
